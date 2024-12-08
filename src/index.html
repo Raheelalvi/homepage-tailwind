@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mx-auto border-2 border-slate-500">
+      <!-- navbar -->
+      <nav class="flex bg-slate-800 h-20 px-10 items-center justify-between">
+        <!-- logo -->
+        <div class="md:w-1/3">
+          <img class="object-scale-down h-14" src="./assets/logo.svg" alt="" />
+        </div>
+
+        <!-- Menu -->
+        <div class="hidden md:flex md:w-2/3 gap-4 justify-end items-center">
+          <ul class="flex items-center gap-4 font-bold">
+            <li class="text-white text-xl"><a href="#">Home</a></li>
+            <li class="text-white text-xl"><a href="#">About</a></li>
+            <li class="text-white text-xl"><a href="#">Contact</a></li>
+            <li class="text-white text-xl text-nowrap">
+              <a href="#">Sign In</a>
+            </li>
+          </ul>
+          <button
+            class="rounded-full text-nowrap text-white bg-stone-400 px-6 py-2 font-bold text-xl"
+          >
+            Sign Up
+          </button>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </nav>
+
+      <!-- hero -->
+
+      <section>
+        <div
+          class="flex flex-col items-center justify-center text-center py-8 gap-5 md:text-left md:items-start md:flex-row md:px-24 bg-slate-600 md:py-32 md:gap-20"
+        >
+          <div class="w-1/2 font-bold text-4xl">
+            <h1 class="text-white">
+              Responsive layouts
+              <span class="text-stone-400">don't have to be a struggle</span>
+            </h1>
+          </div>
+
+          <div class="flex flex-col py-2 w-1/2 gap-8 text-white">
+            <p class="text-xl">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui et
+              dolore at soluta saepe ratione in eligendi expedita ipsam quasi,
+              praesentium unde illum architecto minima animi.
+            </p>
+            <div>
+              <button
+                class="px-6 py-2 rounded-full bg-stone-400 text-white font-bold inline"
+              >
+                I WANT TO LEARN
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2nd section -->
+      <div
+        class="flex flex-col items-center justify-between bg-stone-200 py-10 px-14 gap-8 md:flex-row"
+      >
+        <div class="flex flex-col items-center justify-center text-center">
+          <h2 class="font-bold text-stone-400 text-2xl pb-4">Mobile First</h2>
+          <p class="text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sunt
+            aliquid architecto quidem molestiae, alias quia accusamus labore
+            nemo? Neque, fuga! A animi quidem nisi vero delectus dolorem qui
+            sunt!
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center text-center">
+          <h2 class="font-bold text-stone-400 text-2xl pb-4">Efficient</h2>
+          <p class="text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sunt
+            aliquid architecto quidem molestiae, alias quia accusamus labore
+            nemo? Neque, fuga! A animi quidem nisi vero delectus dolorem qui
+            sunt!
+          </p>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <h2 class="font-bold text-stone-400 text-2xl pb-4">Done Right</h2>
+          <p class="text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sunt
+            aliquid architecto quidem molestiae, alias quia accusamus labore
+            nemo? Neque, fuga! A animi quidem nisi vero delectus dolorem qui
+            sunt!
+          </p>
+        </div>
+      </div>
+
+      <!-- 3rd Section -->
+
+      <div
+        class="flex flex-col items-start justify-between px-14 pt-10 lg:gap-24 lg:px-16 lg:py-10 lg:flex-row"
+      >
+        <div class="lg:w-1/2">
+          <h2 class="font-bold text-stone-400 text-4xl pb-4">
+            It doesn't have to be so hard
+          </h2>
+          <p class="pb-4 text-lg">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et iusto
+            nihil rem dignissimos, iste, consequatur aliquid eaque veritatis
+            iure enim vero, saepe animi consequuntur laboriosam? In ipsum
+            incidunt veniam quasi.
+          </p>
+          <div>
+            <img src="./the-image.jpg" alt="" />
+          </div>
+          <p class="pt-4 text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+            similique aut consectetur sed, quisquam, soluta et possimus veniam
+            asperiores sit excepturi ex minima dolor velit alias ducimus impedit
+            tempora molestias.
+          </p>
+        </div>
+        <!-- black cards -->
+
+        <div
+          class="flex flex-col items-center justify-center mx-auto px-12 gap-8 py-12 lg:w-1/2 lg:px-0"
+        >
+          <div
+            class="flex flex-col items-center justify-center text-center bg-slate-700 gap-4 py-6 px-8"
+          >
+            <h2 class="font-bold text-stone-400 text-2xl">Break it down</h2>
+            <p class="text-slate-400 text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              sunt aliquid architecto quidem molestiae, alias quia accusamus
+              labore nemo? Neque, fuga! A animi quidem sunt!
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-center text-center bg-slate-700 gap-4 py-6 px-8"
+          >
+            <h2 class="font-bold text-stone-400 text-2xl">Work your way up</h2>
+            <p class="text-slate-400 text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              sunt aliquid architecto quidem molestiae, alias quia accusamus
+              labore nemo? Neque, fuga! A animi quidem sunt!
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-center text-center bg-slate-700 gap-4 py-6 px-8"
+          >
+            <h2 class="font-bold text-stone-400 text-2xl">Break it down</h2>
+            <p class="text-slate-400 text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              sunt aliquid architecto quidem molestiae, alias quia accusamus
+              labore nemo? Neque, fuga! A animi quidem sunt!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+
+      <footer class="bg-slate-700 p-14">
+        <h2 class="text-slate-200 font-bold text-4xl text-center pb-6">
+          just scratching the surface
+        </h2>
+        <div class="flex flex-col gap-14 md:flex-row">
+          <div class="flex flex-col md:w-1/3">
+            <h3 class="text-stone-400 font-bold pb-2 pt-5 text-xl">
+              About our company
+            </h3>
+            <p class="text-slate-400 text-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              nemo et labore cum ipsam dolorum aliquid quisquam. Eos numquam non
+              nam, delectus doloremque sit recusandae alias quos nihil et
+              ducimus.
+            </p>
+          </div>
+          <!-- footer menu -->
+          <div class="flex py-6 gap-3 justify-between text-center md:w-2/3">
+            <div class="flex flex-col w-1/3 gap-4 justify-start">
+              <h4 class="text-stone-400 font-bold pb-4 text-lg text-nowrap">
+                Getting around
+              </h4>
+
+              <a href="#" class="text-slate-400">Home</a>
+              <a href="#" class="text-slate-400">About</a>
+              <a href="#" class="text-slate-400">Contact</a>
+            </div>
+
+            <div class="flex flex-col w-1/3 gap-4 justify-start">
+              <h4 class="text-stone-400 font-bold pb-4 text-lg">
+                Other things
+              </h4>
+              <a href="#" class="text-slate-400">Lorem ipsum</a>
+              <a href="#" class="text-slate-400">dolor</a>
+              <a href="#" class="text-slate-400">sit amet</a>
+              <a href="#" class="text-slate-400">coumdsky</a>
+            </div>
+
+            <div class="flex flex-col w-1/3 gap-4">
+              <h4 class="text-stone-400 font-bold pb-4 text-lg">And More</h4>
+              <a href="#" class="text-slate-400">Lorem ipsum</a>
+              <a href="#" class="text-slate-400">dolor</a>
+              <a href="#" class="text-slate-400">sit amet</a>
+              <a href="#" class="text-slate-400">coumdsky</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
